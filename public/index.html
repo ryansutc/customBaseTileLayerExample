@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <title>Testing CustomBaseTileLayer w. ClientSide Rendering</title>
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.22/esri/themes/light/main.css"
+    />
+    <script>
+      var dojoConfig = {
+        paths: {
+          // see https://github.com/Esri/lerc
+          lerc:
+            "https://cdn.jsdelivr.net/gh/Esri/lerc@b0650ff915a05b2a045641235323d59b26a40550/OtherLanguages/js/"
+        }
+      };
+    </script>
+    <script
+    src="https://js.arcgis.com/4.22/"
+    data-esri-loader="loaded"
+  ></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
